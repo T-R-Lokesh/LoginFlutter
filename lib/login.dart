@@ -10,9 +10,7 @@ class Login extends StatefulWidget {
 
 class _LoginState extends State<Login> with SingleTickerProviderStateMixin {
   final username = "Username";
-
   final password = "Password";
-
   final signIn = "Sign in";
 
   AnimationController animationController;
